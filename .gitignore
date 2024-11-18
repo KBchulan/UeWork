@@ -1,0 +1,42 @@
+# 忽略生成的二进制文件和临时文件
+*.log
+*.obj
+*.pdb
+*.exe
+*.dll
+*.app
+*.dSYM
+*.suo
+*.user
+*.userosscache
+*.uvproj.*
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# 忽略构建输出目录
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+
+# 忽略运行时生成的文件
+*.pyc
+*.pyo
+*.bak
+*.swp
+*.tmp
+*.db
+
+# 忽略 Unreal Engine 配置文件中的用户特定内容
+*.ini
+!Config/Default*.ini
+!Config/Engine.ini
+
+# 忽略 Mac 和 Linux 特定的文件
+.DS_Store
+*.dylib
+*.so
+*.swp
